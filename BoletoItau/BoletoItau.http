@@ -1,0 +1,6 @@
+@BoletoItau_HostAddress = http://localhost:5010
+
+GET {{BoletoItau_HostAddress}}/boleto/
+Accept: application/json
+
+###
